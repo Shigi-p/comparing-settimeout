@@ -27,3 +27,7 @@ dist-ssr
 client/.pnp.*
 client/.yarn/cache
 client/.yarn/install-state.gz
+
+# rust
+*pkg
+*target
