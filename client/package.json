@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:rust": "cd ../rust && wasm-pack build --target web --out-dir ../client/src/pkg && cd ../client",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -24,7 +25,8 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "sass": "^1.70.0",
     "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "vite-plugin-wasm": "^3.3.0"
   },
   "packageManager": "yarn@3.2.0"
 }

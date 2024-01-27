@@ -24,6 +24,6 @@ dist-ssr
 *.sw?
 
 # yarn
-.pnp.*
-.yarn/cache
-.yarn/install-state.gz
+client/.pnp.*
+client/.yarn/cache
+client/.yarn/install-state.gz

@@ -1260,6 +1260,7 @@ __metadata:
     sass: ^1.70.0
     typescript: ^5.2.2
     vite: ^5.0.8
+    vite-plugin-wasm: ^3.3.0
   languageName: unknown
   linkType: soft
 
@@ -3000,6 +3001,15 @@ __metadata:
   dependencies:
     punycode: ^2.1.0
   checksum: 7167432de6817fe8e9e0c9684f1d2de2bb688c94388f7569f7dbdb1587c9f4ca2a77962f134ec90be0cc4d004c939ff0d05acc9f34a0db39a3c797dada262633
+  languageName: node
+  linkType: hard
+
+"vite-plugin-wasm@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "vite-plugin-wasm@npm:3.3.0"
+  peerDependencies:
+    vite: ^2 || ^3 || ^4 || ^5
+  checksum: 844034955d6650f89988eebb543e4b3307a54d7b800365052f5b97683223d3b99640ecb22d1fd770e768239576629d975bdefc0c9545999564e206b331f0ac3b
   languageName: node
   linkType: hard
 
