@@ -1,0 +1,3 @@
+# setTimeoutをJsとWasmで比較しちゃいましょ〜〜〜よ！
+
+jsのsetTimeoutはあんまり正確な値じゃないらしく、setTimeoutをwasmで処理したら正確な値になるの？とふと疑問に思ったのでやります
